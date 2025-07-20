@@ -1,0 +1,85 @@
+body{
+    background:linear-gradient(#9fbfc5,#0d4d66);
+    color:white;
+    
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background:linear-gradient(rgb(108, 108, 236),#0d4d66);
+    height: 90px;
+    font-size: 1.3rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 0 20px;
+    list-style-type:none;
+}
+nav ul li a{
+    text-decoration: white;
+    color:white;
+}
+nav ul li a:hover{
+    color:red;
+}
+#home{
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+}
+.rightsection img{
+    width:500px;
+    border-style:ridge;
+    border-radius: 20px;
+    border-width: 20px;
+    border-color:rgb(165, 165, 243);
+    margin: 10% 0;
+}
+.leftsection{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+    color:blue;
+}
+#projects{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-left: auto;
+}
+.project-box{
+    border: 1px solid;
+    background-color:(rgb(108, 108, 236),#0d4d66);
+    transition: transform 0.2s;
+}
+section ul li{
+    list-style-type:none;
+}
+h2{
+    color:pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: auto;
+}
+#skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer ul li a:hover{
+    color: red;
+}
+#f3 ul li a{
+    list-style-type: none;
+    color: white;
+    text-decoration: white;
+}
